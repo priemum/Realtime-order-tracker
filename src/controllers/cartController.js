@@ -4,7 +4,7 @@ exports.updateCart = (req, res, next) => {
     req.session.cart = {
       items: {},
       totalQty: 0,
-      totalPrice: 0
+      totalPrice: 0                  
     };
   }
 
